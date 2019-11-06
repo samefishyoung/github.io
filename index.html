@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ˆœ”„Àø</title>
+    <style>
+        body {
+            width: 35em;
+            margin: 0 auto;
+            font-family: Tahoma, Verdana, Arial, sans-serif;
+        }
+    </style>
+
+    <script src="loadxmldoc.js">
+    </script>
+
+    <script>      
+        function createComprisonFunction(propertyName) {
+            return function (object1, object2) {
+                var value1 = parseInt( object1[propertyName] );
+                var value2 = parseInt( object2[propertyName]);
+                if (value1 < value2) {
+                    return 1;
+                } else if (value1 > value2) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            }
+        }
+
+        function GetMonstList()
+        {            
+            xmlDoc = loadXMLDoc("Monster2.xml");
+
+            var stable = ("<table>");
+             
+            x = xmlDoc.getElementsByName(document.getElementById("searchMonsterName").value);
+
+            var arr = new  Array( );
+            for (i = 0; i < x.length; i++)
+            {
+                if (x[i].nodeName != 'iMonster') continue;
+
+                var vote = {};
+                vote.location = x[i].parentNode.parentNode.parentNode.getAttribute('name');
+                vote.sublocation =  x[i].parentNode.parentNode.getAttribute('comment') + x[i].parentNode.parentNode.getAttribute('name')
+                vote.fname =  x[i].parentNode.getAttribute('name') ;
+                vote.name =  x[i].getAttribute('name');
+                vote.count = x[i].getAttribute('count');
+                arr.push(vote);              
+            }
+
+             arr.sort(createComprisonFunction("count"))
+
+            for (i = 0; i < arr.length; i++)
+            {              
+                stable += ("<tr>");               
+                stable += ("<td>" + arr[i].location + "</td>");
+                stable += ("<td>" + arr[i].sublocation + "</td>");
+                stable += ("<td>" + arr[i].fname + "</td>");
+                stable += ("<td>" + arr[i].name + "</td>");
+                stable += ("<td>" + arr[i].count + "</td>");
+                stable += ("</tr>");
+            }
+              stable += ("</table>");             
+            t = document.getElementById("searchresult");
+             t.innerHTML = stable;
+        }
+         </script>
+
+</head>
+<body>
+
+    <input type="text" id="searchMonsterName"> 
+
+    <input type="button" name="confirmAlter" value="–¸…Õ—˝π÷" onclick="GetMonstList(  )" />
+
+    <div id="searchresult">
+        
+        </div>
+
+    <h1>ª·≥§ «∏ˆ≥§Õ»∏ª∆≈</h1>
+    <div id="datetime">
+        <script>setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);</script>
+    </div>
+
+    <p>
+        If you see this page, the nginx web server is successfully installed and
+        working. Further configuration is required.
+    </p>
+    <p>
+        <a href="https://bbs.nga.cn/thread.php?fid=538&rand=194">“ı—Ù ¶.NGA</a><br />
+        <a href="https://www.bilibili.com/">B’æ</a><br />
+        <a href="https://weibo.com/binglengzhihai?refer_flag=1005055014_&is_all=1">±˘¿‰÷Æ∫£Œ¢≤©</a><br />
+    </p>
+    <p><em>Thank you for using nginx.</em></p>
+
+</body>
+</html>
