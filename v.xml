@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<update>
+<file version="1.1.3.32" filename="YYSUpdate/YYS20200410.zip"  comment="" >注册信息更新</file>
+  <file version="1.1.3.30" filename="YYSUpdate/YYS20200216.zip"  comment="" >自动日常优化/截图错误信息显示</file>
+  <file version="1.1.3.29" filename="YYSUpdate/YYS20200215.zip"  comment="" >自动探索狗粮，自动换红蛋。</file>
+  <file version="1.1.3.27" filename="YYSUpdate/YYS20200213.zip"  comment="" >自动探索狗粮，自动换红蛋。</file>
+<file version="1.1.3.27" filename="YYSUpdate/YYS20200209.zip"  comment="" >优化探索狗粮策略，截图优化。</file>
+<file version="1.1.3.26" filename="YYSUpdate/YYS20200207.zip"  comment="" >探索：自动识别经验怪。暂时不能自动换狗粮。</file>
+<file version="1.1.3.24" filename="YYSUpdate/YYS20200106.zip"  comment="" >增加自动换号功能，需要在data/Account.xml下添加账号</file>
+<file version="1.1.3.23" filename="YYSUpdate/YYS20200105.zip"  comment="" >优化一键日常，自动领取结界体力得注意把结界皮肤换成最初（最左边）那张</file>
+<file version="1.1.3.22" filename="YYSUpdate/YYS20200103.zip"  comment="" >增加简单日常点击任务领庭院体力，领庭院勾玉，领地图体力，领寮金币，一键邮件</file>
+<file version="1.1.3.20" filename="YYSUpdate/YYS20191207.zip"  comment="" >增加新副本开始按钮识别</file>
+<file version="1.1.3.19" filename="YYSUpdate/YYS20191202.zip"  comment="" >增加悬赏查询</file>
+<file version="1.1.3.18" filename="YYSUpdate/YYS20191128.zip"  comment="" >活动自动战斗</file>
+<file version="1.1.3.17" filename="YYSUpdate/YYS20191126c.zip"  comment="" >增加读取玩家账号功能，点击后耐心等4秒</file>
+<file version="1.1.3.17" filename="YYSUpdate/YYS20191126.zip"  comment="" >增加读取玩家账号功能，点击后耐心等4秒</file>
+	<file version="1.1.3.16" filename="YYSUpdate/YYS20191121.zip"  comment="" >日常更新</file>
+	<file version="1.1.3.15" filename="YYSUpdate/YYS20191120.zip"  comment="" >增加“御魂.简”选项，只针对御魂十/十一层减少点击次数，延时增加。</file>
+	<file version="1.1.3.14" filename="YYSUpdate/YYS20191119.zip"  comment="" >优化界面布局，增加抽N卡。</file>
+  <file version="1.1.3.13" filename="YYSUpdate/YYS20191117.zip"  comment="" >优化不同副本的图片识别，精简图片，提高效率，去除冗余。</file>
+  <file version="1.1.3.12" filename="YYSUpdate/YYS20191116.zip"  comment="" >重新调整等待策略：指数递增延时。</file>
+  <file version="1.1.3.11" filename="YYSUpdate/YYS20191115.zip"  comment="" >新增功能:多开游戏，首次使用需要手动选择游戏启动程序Onmyoji\Launch.exe</file>
+  <file version="1.1.3.10" filename="YYSUpdate/YYS20191114.zip"  comment="" >更新文件:挂机闪退</file>
+  <file version="1.1.3.10" filename="YYSUpdate/YYS20191113b.zip"  comment="" >修复bug:更新界面导致的关联失败</file>
+  <file version="1.1.3.9" filename="YYSUpdate/yys20191113.zip"  comment="" >使用CSkin美化主界面</file>
+  <file version="1.1.3.8" filename="YYSUpdate/yys20191112.zip"  comment="" >继续优化图片识别在副本探索a</file>
+  <file version="1.1.3.7" filename="YYSUpdate20191112.zip"  comment="" >优化部分识别的图片</file>
+  <file version="1.1.3.6" filename="update20191109.zip"  comment="" >添加Next鬼王自动抢车</file>
+</update>
+
